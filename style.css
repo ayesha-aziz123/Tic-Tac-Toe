@@ -10,8 +10,12 @@ body {
   text-align: center;
   background: linear-gradient(97deg, #2009a2, #e89054);
 }
+#heading {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 .container {
-  height: 70vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   gap: 1.5vmin;
@@ -31,17 +35,22 @@ body {
   border-radius: 1rem;
   border: none;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
-  font-size: 8vmin;
+  font-size: 10vmin;
   color: brown;
+  font-weight: 600;
   background-color: burlywood;
+  cursor: pointer;
 }
 #reset {
+  position: relative;
+  top:1vw;
   background-color: black;
   color: white;
   font-size: 1.25rem;
   padding: 1rem;
   border-radius: 1.25rem;
   border: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #new-btn {
@@ -51,6 +60,7 @@ body {
   padding: 1rem;
   border-radius: 1.25rem;
   border: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 #msg {
   color: azure;
